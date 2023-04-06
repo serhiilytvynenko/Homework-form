@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Form</title>
 </head>
 
 <body>
@@ -11,22 +11,22 @@
     <h1>Form</h1>
     <fieldset>
       <legend>Личные данные</legend>
-      <label for="Имя">Имя</label>
-      <input autofocus id="Имя" placeholder="Сергей" /><br>
-      <label for="Фамилия">Фамилия</label>
-      <input autofocus id="Фамилия" placeholder="Козаков" /><br>
-      <label for="День рождения">День рождения</label>
-      <input type="date" id="День рождения" name="Birthday">
+      <label for="name">Имя</label>
+      <input autofocus id="name" placeholder="Сергей" /><br>
+      <label for="surname">Фамилия</label>
+      <input id="surname" placeholder="Козаков" /><br>
+      <label for="birthday">День рождения</label>
+      <input type="date" id="birthday" name="birthday">
       <p>Выберите Ваш пол</p>
-      <input type="radio" id="Мужчина" name="gender" value="Мужчина">
-      <label for="Мужчина">Мужчина</label><br>
-      <input type="radio" id="Женщина" name="gender" value="Женщина">
-      <label for="Женщина">Женщина</label><br>
+      <label for="male">Мужчина</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Женщина</label>
+      <input type="radio" id="female" name="gender" value="male">
     </fieldset>
     <fieldset>
       <legend>Адресные данные</legend>
-      <label for="Город">Город</label>
-      <select id="Город" name="City">
+      <label for="city">Город</label>
+      <select id="city" name="city">
         <option value="KS">Kherson</option>
         <option value="KV">Kyiv</option>
         <option value="MK">Mykolaiv</option>
@@ -34,22 +34,22 @@
         <option value="ZP">Zaporizia</option>
         <option value="OD">Odesa</option>
       </select><br>
-      <label for="Улица">Улица</label>
-      <input type="text" id="Улица" name="street"><br>
-      <label for="Номер дома">Номер дома</label>
-      <input type="number" id="Номер дома" name="number"><br>
-      <label for="Квартира">Квартира</label>
-      <input type="number" id="Квартира" name="home">
+      <label for="street">Улица</label>
+      <input type="text" id="street" name="street"><br>
+      <label for="home-number">Номер дома</label>
+      <input type="text" id="home-number" name="number"><br>
+      <label for="flat">Квартира</label>
+      <input type="number" id="flat" name="flat">
     </fieldset>
     <fieldset>
       <legend>Контактные данные</legend>
-      <label for="Мобильный">Мобильный</label>
-      <input type="tel" id="Мобильный" name="phone"><br>
-      <label for="Рабочий">Рабочий</label>
-      <input type="tel" id="Рабочий" name="work phone"><br>
-      <label for="Домашний">Домашний</label>
-      <input type="tel" id="Домашний" name="home phone"><br>
-      <label for="Email">Email:</label>
+      <label for="mobile">Мобильный</label>
+      <input type="tel" id="mobile" name="mobile"><br>
+      <label for="work-phone">Рабочий</label>
+      <input type="tel" id="work-phone" name="work-phone"><br>
+      <label for="home-phone">Домашний</label>
+      <input type="tel" id="home-phone" name="home-phone"><br>
+      <label for="email">Email:</label>
       <input type="email" id="email" name="email">
     </fieldset>
     <input type="reset" value="cancel">
